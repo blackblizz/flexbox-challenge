@@ -1,4 +1,5 @@
 nav{
+    display: inline-flex;
     margin: 0px;
     padding: 0%;
 }
@@ -8,6 +9,7 @@ nav > ul {
     list-style-type: none;
     border: 2px solid black;
     height: 40px;
+    width: 67em;
     background-color: black;
 
 
@@ -26,7 +28,7 @@ a {
 
 .nology {
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
     border: 2px solid green;
     background-color: green;
@@ -39,9 +41,18 @@ main {
 }
 
 main > .leftpanels {
-    width: 200px;
+    width: 50em;
+    padding: 10px;
+    margin: 10px;
 }
 
-main > .leftpanels > #panelA {
+main > .rightpanel {
+    width: 20em;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+main > .panelA {
     border: 2px solid black;
 }
