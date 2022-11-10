@@ -26,6 +26,11 @@ a {
     color: white;
 }
 
+a:hover {
+    background-color: blueviolet;
+    color: yellow
+}
+
 .nology {
     display: flex;
     justify-content: flex-start;
@@ -40,19 +45,33 @@ main {
     display: inline-flex;
 }
 
-main > .leftpanels {
+.leftpanels {
     width: 50em;
     padding: 10px;
     margin: 10px;
 }
 
-main > .rightpanel {
+.rightpanel {
     width: 20em;
     border: 2px solid black;
     padding: 10px;
     margin: 10px;
 }
 
-main > .panelA {
+.panel-1 {
     border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.panel-2 {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.panel-3 {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
 }
